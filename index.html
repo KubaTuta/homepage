@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Roadmapa Kuby</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,700&display=swap"
+        rel="stylesheet">
+</head>
+<body class="body js-body">
+    <header class="header js-header">
+        <h1>Moja Roadmapa - Kuba</h1>
+    </header>
+    <nav class="nav js-nav">
+        <a href="#table"><button class="nav__button js-nav__button">strefa 1</button></a>
+        <a href="#about"><button class="nav__button js-nav__button">strefa 2</button></a>
+        <a href="#footer"><button class="nav__button js-nav__button">Kontakt</button></a>
+        <button class="nav__button  js-nav__button js-nav__button--motive"><span class="js-themeName">Jasny</span>
+            motyw</button>
+    </nav>
+    <main>
+        <p>Korzystając z okazji że ucząc się mogę jednocześnie zrobić coś przydatnego<br>
+            postanowiłem stworzyć stronę, na której będę śledził postępy mojej nauki.<br>
+            W przyszłości chciałbym, że zamieniła się ona w moją wizytówkę,<br>
+            także na bieżąco będą wprowadzane zmiany.</p>
+        <section class="roadmap js-roadmap" id="table">
+            <h2>Umiejętności nabyte podczas kursu</h2>
+            <table class="roadmap__table">
+                <tr class="roadmap__tableRow">
+                    <th class="roadmap__tableCell roadmap__tableCell--Header" scope="col">Technologia</th>
+                    <th class="roadmap__tableCell roadmap__tableCell--Header" scope="col">Poziom</th>
+                    <th class="roadmap__tableCell roadmap__tableCell--Header" scope="col">Data</th>
+                    <th class="roadmap__tableCell roadmap__tableCell--Header" scope="col">Umiejętności</th>
+                </tr>
+                <tr class="tableRow">
+                    <th class="roadmap__tableCell roadmap__tableCell--Header" scope="row">HTML</th>
+                    <td class="roadmap__tableCell">Moduł 3</td>
+                    <td class="roadmap__tableCell">Grudzień 2022</td>
+                    <td class="roadmap__tableCell">
+                        <ul class="roadmap__ulist">
+                            <li class="roadmap__list">Budowa szkieletu</li>
+                            <li class="roadmap__list">Podstawowe znaczniki</li>
+                            <li class="roadmap__list">Klasy</li>
+                            <li class="roadmap__list">Tabele</li>
+                            <li class="roadmap__list">Sekcje</li>
+                            <li class="roadmap__list">Linki</li>
+                            <li class="roadmap__list">Przyciski</li>
+                            <li class="roadmap__list">Listy</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="tableRow">
+                    <th class="roadmap__tableCell roadmap__tableCell--Header" scope="row">CSS</th>
+                    <td class="roadmap__tableCell">Moduł 3</td>
+                    <td class="roadmap__tableCell">Grudzień 2022</td>
+                    <td class="roadmap__tableCell">
+                        <ul class="roadmap__ulist">
+                            <li class="roadmap__list">Kolory</li>
+                            <li class="roadmap__list">Tła</li>
+                            <li class="roadmap__list">Marginesy</li>
+                            <li class="roadmap__list">Responsywność</li>
+                            <li class="roadmap__list">Fonty</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr class="roadmap__tableRow">
+                    <th class="roadmap__tableCell roadmap__tableCell--Header" scope="row">JavaScript</th>
+                    <td class="roadmap__tableCell">Moduł 3</td>
+                    <td class="roadmap__tableCell">Grudzień 2022</td>
+                    <td class="roadmap__tableCell">
+                        <ul class="roadmap__ulist">
+                            <li class="roadmap__list">If/else, ternary, switch</li>
+                            <li class="roadmap__list">Zmiana tła</li>
+                            <li class="roadmap__list">Zmiana zdjęcia</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+        </section>
+        <section class="about js-about" id="about">
+            <h2>O mnie</h2>
+            Niespełniony fizjoterapeuta, elektronik,<br>
+            żeglarz, milośnik psów i niedługo Frontend.<br>
+            Ciekawi mnie przyroda, fizyka,<br>
+            sporty kopane i dbanie o zdrowie.<br>
+            Jak podróże to bez planu:)<br>
+            <button class="about__next js-about__next js-about__next--left">
+                « </button>
+            <img class="img" src="https://i.postimg.cc/zDVMm6RK/chill.jpg" alt="Kuba" width="300">
+            <button class="about__next js-about__next js-about__next--right">»</button>
+        </section>
+    </main>
+    <footer class="footer js-footer" id="footer">
+        Copyright Warszawa 2022
+    </footer>
+</body>
+</html>

@@ -1,0 +1,212 @@
+html {
+    box-sizing: border-box;
+}
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+.body {
+    max-width: 1000px;
+    background-color: #0f1626;
+    color: #8196c7;
+    margin: 20px auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.bodyLight {
+    max-width: 1000px;
+    background-color: orangered;
+    color: black;
+    margin: 20px auto;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+.header {
+    background-color: #2C3240;
+    border-radius: 30px;
+    margin: 20px 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-shadow: 15px -15px 30px 0px rgb(0, 0, 0);
+    overflow-x: auto;
+}
+.headerLight {
+    background-color: orange;
+    border-radius: 30px;
+    margin: 20px 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-shadow: 15px -15px 30px 0px rgb(150, 10, 10);
+    overflow-x: auto;
+}
+.nav {
+    background-color: #2C3240;
+    border-radius: 30px;
+    margin: 20px 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-shadow: 15px -15px 30px 0px rgb(0, 0, 0);
+    overflow-x: auto;
+}
+.navLight {
+    background-color: orange;
+    border-radius: 30px;
+    margin: 20px 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-shadow: 15px -15px 30px 0px rgb(150, 10, 10);
+    overflow-x: auto;
+}
+.nav__button {
+    background-color: #323d56;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #8196c7;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 15px -15px 30px 0px black;
+    margin: 10px 10px;
+}
+.nav__button:hover {
+    background-color: #1c1f26;
+    cursor: pointer;
+}
+.nav__buttonLight {
+    background-color: #dfc005;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 10px -10px 30px 0px rgb(150, 10, 10);
+    margin: 10px 10px;
+}
+.nav__buttonLight:hover {
+    background-color: #dceb0a;
+    cursor: pointer;
+}
+.roadmap {
+    background-color: #2C3240;
+    border-radius: 30px;
+    margin: 20px 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-shadow: 15px -15px 30px 0px rgb(0, 0, 0);
+    overflow-x: auto;
+}
+.roadmapLight {
+    background-color: orange;
+    border-radius: 30px;
+    margin: 20px 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-shadow: 15px -15px 30px 0px rgb(150, 10, 10);
+    overflow-x: auto;
+}
+.roadmap__table {
+    border-collapse: collapse;
+    width: 100%;
+}
+.roadmap__tableCell {
+    border: 1px solid #eee;
+    padding: 10px;
+    text-align: center;
+}
+.roadmap__tableCell--Header {
+    background-color: crimson;
+    color: whitesmoke;
+}
+.roadmap__tableRow:nth-child(odd) {
+    background-color: rgba(116, 109, 109, 0.308);
+}
+.roadmap__tableRow:hover {
+    background-color: rgba(75, 70, 70, 0.308);
+}
+.roadmap__ulist {
+    list-style-type: "🍕"
+}
+.about {
+    background-color: #2C3240;
+    border-radius: 30px;
+    margin: 20px 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-shadow: 15px -15px 30px 0px rgb(0, 0, 0);
+    overflow-x: auto;
+}
+.aboutLight {
+    background-color: orange;
+    border-radius: 30px;
+    margin: 20px 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-shadow: 15px -15px 30px 0px rgb(150, 10, 10);
+    overflow-x: auto;
+}
+.footer {
+    background-color: #2C3240;
+    border-radius: 30px;
+    margin: 20px 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-shadow: 15px -15px 30px 0px rgb(0, 0, 0);
+    overflow-x: auto;
+}
+.footerLight {
+    background-color: orange;
+    border-radius: 30px;
+    margin: 20px 5px;
+    text-align: center;
+    border: none;
+    padding: 10px;
+    box-shadow: 15px -15px 30px 0px rgb(150, 10, 10);
+    overflow-x: auto;
+}
+.about__next {
+    background-color: #323d56;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #8196c7;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 15px -15px 30px 0px black;
+    margin: 10px 10px;
+    position: relative;
+    bottom: 110px;
+}
+.about__nextLight {
+    background-color: #dfc005;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 15px -15px 30px 0px black;
+    margin: 10px 10px;
+    position: relative;
+    bottom: 110px;
+}
+.about__next:hover {
+    background-color: #1c1f26;
+    cursor: pointer;
+}
+.about__nextLight:hover {
+    background-color: #dceb0a;
+    cursor: pointer;
+}
