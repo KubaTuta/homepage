@@ -22,18 +22,23 @@ button.addEventListener("click", () => {
     buttonElements.forEach((button) => {
         button.classList.toggle("nav__buttonLight");
     });
+
     nextElements.forEach((next) => {
         next.classList.toggle("about__nextLight");
     });
+
     themeName.innerText = body.classList.contains("bodyLight") ? themeName.innerText = "Ciemny" : "Jasny";
 });
+
 left.addEventListener("click", () => {
     img.classList.toggle("nextPhoto");
     const thatsNextPhoto = img.classList.contains("nextPhoto");
     img.src = thatsNextPhoto ?
         "https://i.postimg.cc/LX7x64Zf/chorwacja.jpg" :
         "https://i.postimg.cc/zDVMm6RK/chill.jpg";
+    
 });
+
 right.addEventListener("click", () => {
     img.classList.toggle("nextPhoto");
     const thatsNextPhoto = img.classList.contains("nextPhoto");
