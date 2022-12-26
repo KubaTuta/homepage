@@ -4,6 +4,10 @@ const right = document.querySelector(".js-about__next--right");
 const left = document.querySelector(".js-about__next--left");
 const img = document.querySelector(".img");
 
+const changeButtonThemeText = (themeName, body) => {
+    themeName.innerText = body.classList.contains("bodyLight") ? themeName.innerText = "Ciemny" : "Jasny";
+};
+
 const changeTheme = () => {
     const body = document.querySelector(".js-body");
     const headerElements = document.querySelector(".js-header")
@@ -29,7 +33,7 @@ const changeTheme = () => {
         next.classList.toggle("about__nextLight");
     });
 
-    themeName.innerText = body.classList.contains("bodyLight") ? themeName.innerText = "Ciemny" : "Jasny";
+    changeButtonThemeText(themeName, body);
 };
 
 const previousPhoto = () => {
